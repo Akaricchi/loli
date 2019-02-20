@@ -31,12 +31,11 @@ Write once. Run everywhere!
 Compiling depends ``make`` and ``CMake`` 3.6 or later
 
 ```bash
-mkdir ./build               # make build directory
 cmake -S ../ -B ./          # generate make file to build directory
 make                        # compile loli
 ```
 
-Then in the build directory you can find files: ``loli`` & ``libloli.so`` (``loli.exe`` & ``libloli.dll`` on Windows)
+Then in the directory you can find files: ``loli`` & ``libloli.so`` (``loli.exe`` & ``libloli.dll`` on Windows)
 
 ## Documentation
 Documentation is available at https://loli-foundation.github.io/loli/
