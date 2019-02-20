@@ -32,8 +32,8 @@ Compiling depends ``make`` and ``CMake`` 3.6 or later
 
 ```bash
 mkdir ./build               # make build directory
-cmake -S ./ -B ./build      # generate make file to build directory
-cd build && make            # compile loli
+cmake -S ../ -B ./          # generate make file to build directory
+make                        # compile loli
 ```
 
 Then in the build directory you can find files: ``loli`` & ``libloli.so`` (``loli.exe`` & ``libloli.dll`` on Windows)
